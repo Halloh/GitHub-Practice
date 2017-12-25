@@ -1,4 +1,4 @@
-#*NOTES*: Some of these are from this link
+*#NOTES*: Some of these are from this link
 https://guides.github.com/features/mastering-markdown/
 
 # Git markdown syntax (h1 header)
@@ -18,28 +18,28 @@ _You **can** mix them up_
     * make
     * lists
 
-1 you
-1 can
-    1 make
-    1 ordered
-    1 lists
+1. you
+1. can
+    1. make
+    1. ordered
+    1. lists
 
-##Images
+## Images
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 
-##Links
+## Links
 http://github.com - automatic!
 [GitHub](http://github.com)
 
 
-##Blockquotes
+## Blockquotes
 As Kanye West said:
 
 > We're living the future so
 > the present is our past.
 
-##Inline code
+## Inline code
 I think you should use an
 `<addr>` element here instead.
 
