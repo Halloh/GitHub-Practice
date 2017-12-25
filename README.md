@@ -1,52 +1,49 @@
-Practicing git stuff (in order to git good) OHHHHHHHHHHH
+#*NOTES*: Some of these are from this link
+https://guides.github.com/features/mastering-markdown/
 
-Quick notes I made during the codecademy git lessons
+# Git markdown syntax (h1 header)
+## H2
+###### H6
 
-A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files
-A Staging Area: where you'll list changes you make to the working directory
-A Repository: where Git permanently stores those changes as different versions of the project
+*This will be in italic*
+**This will be in bold**
 
-git init creates a new Git repository
-git status inspects the contents of the working directory and staging area
-git add adds files from the working directory to the staging area
-git diff shows the difference between the working directory and the staging area
-git commit permanently stores file changes from the staging area in the repository
-git log shows a list of all previous commits
-git show HEAD shows the most recent commit
+_This will also be in italic_
+__This will also be in bold__
 
-Before resetting:
-HEAD is at the most recent commit
+_You **can** mix them up_
 
-After resetting:
-HEAD goes to a previously made commit of your choice
-The gray commits are no longer part of your project
-You have in essence rewound the project's history
+* You
+* can
+    * make
+    * lists
 
+1 you
+1 can
+    1 make
+    1 ordered
+    1 lists
 
-git checkout HEAD filename: Discards changes in the working directory.
-git reset HEAD filename: Unstages file changes in the staging area.
-git reset commit_SHA: Resets to a previous commit in your commit history.
+##Images
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 
-git branch: Lists all a Git project's branches.
-git branch branch_name: Creates a new branch.
-git checkout branch_name: Used to switch from one branch to another.
-git merge branch_name: Used to join file changes from one branch to another.
-git branch -d branch_name: Deletes the branch specified.
-
-GIT CLONE
-git clone remote_location clone_name
-
-In this command: 
-
-remote_location tells Git where to go to find the remote. This could be a web address, or a filepath, such as:
-
-git clone: Creates a local copy of a remote.
-git remote -v: Lists a Git project's remotes.
-git fetch: Fetches work from the remote into the local copy.
-git merge origin/master: Merges origin/master into your local branch.
-git push origin <branch_name>: Pushes a local branch to the origin remote.
+##Links
+http://github.com - automatic!
+[GitHub](http://github.com)
 
 
+##Blockquotes
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+
+##Inline code
+I think you should use an
+`<addr>` element here instead.
+
+    
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
