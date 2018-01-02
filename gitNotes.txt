@@ -2,9 +2,9 @@ Practicing git stuff (in order to git good) OHHHHHHHHHHH
 
 Quick notes I made during the codecademy git lessons
 
-A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files
-A Staging Area: where you'll list changes you make to the working directory
-A Repository: where Git permanently stores those changes as different versions of the project
+Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files
+Staging Area: where you'll list changes you make to the working directory
+Repository: where Git permanently stores those changes as different versions of the project
 
 git init creates a new Git repository
 git status inspects the contents of the working directory and staging area
